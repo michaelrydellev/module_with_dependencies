@@ -1,0 +1,3 @@
+[submodule "module_no_dependencies"]
+	path = module_no_dependencies
+	url = https://github.com/michaelrydellev/module_no_dependencies.git

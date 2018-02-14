@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\module_no_dependencies\ModuleNoDependencies.BusinessLogic\ModuleNoDependencies.BusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>

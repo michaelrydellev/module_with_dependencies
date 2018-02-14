@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleWithDependencies.ConsoleApp", "ModuleWithDependencies.ConsoleApp\ModuleWithDependencies.ConsoleApp.csproj", "{9F511D5F-FAE4-49C6-93C5-BB2B593D41EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuleNoDependencies.BusinessLogic", "module_no_dependencies\ModuleNoDependencies.BusinessLogic\ModuleNoDependencies.BusinessLogic.csproj", "{1838481E-2045-4226-837F-F012F5D89311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F511D5F-FAE4-49C6-93C5-BB2B593D41EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F511D5F-FAE4-49C6-93C5-BB2B593D41EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F511D5F-FAE4-49C6-93C5-BB2B593D41EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F511D5F-FAE4-49C6-93C5-BB2B593D41EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1838481E-2045-4226-837F-F012F5D89311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1838481E-2045-4226-837F-F012F5D89311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1838481E-2045-4226-837F-F012F5D89311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1838481E-2045-4226-837F-F012F5D89311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31DEC70F-C6D4-4569-88BE-5B4D5F88C632}
+	EndGlobalSection
+EndGlobal
